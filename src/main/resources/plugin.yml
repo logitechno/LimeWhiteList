@@ -1,0 +1,9 @@
+name: LimeWhiteList
+version: '${version}'
+main: ru.techno.limewhitelist.LimeWhiteList
+api-version: '1.20'
+commands:
+  limewhitelist:
+    aliases: [lwl, wl]
+    description: Команды белого списка
+    usage: /limewhitelist <add/remove/list/reload/on/off/help>
